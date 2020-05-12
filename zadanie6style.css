@@ -6,6 +6,39 @@
 		opacity:1;
 	}
 }
+@keyframes pulsuj {
+  0% {
+    background-color: #ffffcc;
+  }
+  50% {
+    background-color: #00ff00;
+  }
+  100% {
+    background-color: #ffffcc;
+  }
+}
+@keyframes pulsuj2 {
+  0% {
+    background-color: #0066cc;
+  }
+  50% {
+    background-color: #ff3300;
+  }
+  100% {
+    background-color: #0066cc;
+  }
+}
+@keyframes pulsuj3 {
+  0% {
+    background-color: #ff9933;
+  }
+  50% {
+    background-color: #ffff00;
+  }
+  100% {
+    background-color: #ff9933;
+  }
+}
 p {
     font: 48px Arial;
     text-align: center;
@@ -39,12 +72,7 @@ infinite;
 .blue3 { width: 33%; 
 background-color: #0066cc;
 height: 250px; float: left;
-animation-name: zapal;
-animation-duration: 3s;
-animation-fill-mode: both;
-animation-direction: alternate;
-animation-iteration-count: 
-infinite;
+animation: pulsuj2 5s infinite;
 }
 .orange1 { width: 33%; 
 background-color: #ffcc66;
@@ -60,11 +88,7 @@ infinite;
 background-color: #ff9933;
 height: 250px; float: left;
 animation-name: zapal;
-animation-duration: 5s;
-animation-fill-mode: both;
-animation-direction: alternate;
-animation-iteration-count: 
-infinite;
+animation: pulsuj3 5s infinite;
 }
 .orange3 { width: 33%; 
 background-color: #ff6600;
@@ -79,12 +103,7 @@ infinite;
 .yellow1 { width: 33%; 
 background-color: #ffffcc;
 height: 250px; float: left;
-animation-name: zapal;
-animation-duration: 7s;
-animation-fill-mode: both;
-animation-direction: alternate;
-animation-iteration-count: 
-infinite;
+animation: pulsuj 5s infinite;
 }
 .yellow2 { width: 33%; 
 background-color: #ffff99;
